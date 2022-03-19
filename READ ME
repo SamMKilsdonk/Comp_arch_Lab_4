@@ -1,0 +1,4 @@
+This is a quartus project set up to use the DE-10Lite board.
+The top level file is L4ALU.V
+This file uses L4adder32bit.v,L4adder1bit.v,and mux_8X30to1X32.v
+The testbench file is L4TB.V

@@ -1,0 +1,90 @@
+# Reading C:/Users/kilsd/Desktop/old classes/modelsim_ase/tcl/vsim/pref.tcl
+# do L4Test_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/Users/kilsd/Desktop/old classes/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/kilsd/Desktop/Computer\ Architecture/Lab\ 4\ new {C:/Users/kilsd/Desktop/Computer Architecture/Lab 4 new/L4adder1bit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:08:23 on Mar 19,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/kilsd/Desktop/Computer Architecture/Lab 4 new" C:/Users/kilsd/Desktop/Computer Architecture/Lab 4 new/L4adder1bit.v 
+# -- Compiling module L4adder1bit
+# 
+# Top level modules:
+# 	L4adder1bit
+# End time: 10:08:23 on Mar 19,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/kilsd/Desktop/Computer\ Architecture/Lab\ 4\ new {C:/Users/kilsd/Desktop/Computer Architecture/Lab 4 new/L4adder32bit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:08:23 on Mar 19,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/kilsd/Desktop/Computer Architecture/Lab 4 new" C:/Users/kilsd/Desktop/Computer Architecture/Lab 4 new/L4adder32bit.v 
+# -- Compiling module L4adder32bit
+# 
+# Top level modules:
+# 	L4adder32bit
+# End time: 10:08:23 on Mar 19,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/kilsd/Desktop/Computer\ Architecture/Lab\ 4\ new {C:/Users/kilsd/Desktop/Computer Architecture/Lab 4 new/L4ALU.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:08:23 on Mar 19,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/kilsd/Desktop/Computer Architecture/Lab 4 new" C:/Users/kilsd/Desktop/Computer Architecture/Lab 4 new/L4ALU.v 
+# -- Compiling module L4ALU
+# 
+# Top level modules:
+# 	L4ALU
+# End time: 10:08:23 on Mar 19,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/kilsd/Desktop/Computer\ Architecture/Lab\ 4\ new {C:/Users/kilsd/Desktop/Computer Architecture/Lab 4 new/Mux_8x32to1x32.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:08:23 on Mar 19,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/kilsd/Desktop/Computer Architecture/Lab 4 new" C:/Users/kilsd/Desktop/Computer Architecture/Lab 4 new/Mux_8x32to1x32.v 
+# -- Compiling module Mux_8x32to1x32
+# 
+# Top level modules:
+# 	Mux_8x32to1x32
+# End time: 10:08:23 on Mar 19,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/kilsd/Desktop/Computer\ Architecture/Lab\ 4\ new {C:/Users/kilsd/Desktop/Computer Architecture/Lab 4 new/L4TB.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:08:23 on Mar 19,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/kilsd/Desktop/Computer Architecture/Lab 4 new" C:/Users/kilsd/Desktop/Computer Architecture/Lab 4 new/L4TB.v 
+# -- Compiling module L4TB
+# 
+# Top level modules:
+# 	L4TB
+# End time: 10:08:23 on Mar 19,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  L4TB
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" L4TB 
+# Start time: 10:08:24 on Mar 19,2022
+# Loading work.L4TB
+# Loading work.L4ALU
+# Loading work.L4adder32bit
+# Loading work.Mux_8x32to1x32
+# Loading work.L4adder1bit
+# 
+# add wave *
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: kilsd  Hostname: LENOVO-OF-SAM  ProcessID: 28952
+#           Attempting to use alternate WLF file "./wlfts0hy55".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlfts0hy55
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Note: $stop    : C:/Users/kilsd/Desktop/Computer Architecture/Lab 4 new/L4TB.v(23)
+#    Time: 80 ps  Iteration: 0  Instance: /L4TB
+# Break in Module L4TB at C:/Users/kilsd/Desktop/Computer Architecture/Lab 4 new/L4TB.v line 23
+# could not find interpreter "ScintillaTk"
+# End time: 10:21:38 on Mar 19,2022, Elapsed time: 0:13:14
+# Errors: 1, Warnings: 2

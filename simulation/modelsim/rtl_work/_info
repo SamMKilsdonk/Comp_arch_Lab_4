@@ -1,0 +1,125 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/kilsd/Desktop/Computer Architecture/Lab 4 new/simulation/modelsim
+vL4adder1bit
+Z1 !s110 1647698903
+!i10b 1
+!s100 P?WGgU9X`mJ4Z11Y_bICl1
+IeKEo[e]E`lnUiaQI8fm933
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1647544504
+8C:/Users/kilsd/Desktop/Computer Architecture/Lab 4 new/L4adder1bit.v
+FC:/Users/kilsd/Desktop/Computer Architecture/Lab 4 new/L4adder1bit.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1647698903.000000
+!s107 C:/Users/kilsd/Desktop/Computer Architecture/Lab 4 new/L4adder1bit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/kilsd/Desktop/Computer Architecture/Lab 4 new|C:/Users/kilsd/Desktop/Computer Architecture/Lab 4 new/L4adder1bit.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work {+incdir+C:/Users/kilsd/Desktop/Computer Architecture/Lab 4 new}
+Z7 tCvgOpt 0
+n@l4adder1bit
+vL4adder32bit
+R1
+!i10b 1
+!s100 [2AcI2kfhO1B5HN9GG5Zb3
+INSi8<oM8=Ub:el4KRmegP2
+R2
+R0
+w1647548271
+8C:/Users/kilsd/Desktop/Computer Architecture/Lab 4 new/L4adder32bit.v
+FC:/Users/kilsd/Desktop/Computer Architecture/Lab 4 new/L4adder32bit.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/kilsd/Desktop/Computer Architecture/Lab 4 new/L4adder32bit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/kilsd/Desktop/Computer Architecture/Lab 4 new|C:/Users/kilsd/Desktop/Computer Architecture/Lab 4 new/L4adder32bit.v|
+!i113 1
+R5
+R6
+R7
+n@l4adder32bit
+vL4ALU
+R1
+!i10b 1
+!s100 NS:knNkW1_0OJU0Co70RY3
+I=K9JiU1bcjhOazZF3[@6C3
+R2
+R0
+w1647548282
+8C:/Users/kilsd/Desktop/Computer Architecture/Lab 4 new/L4ALU.v
+FC:/Users/kilsd/Desktop/Computer Architecture/Lab 4 new/L4ALU.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/kilsd/Desktop/Computer Architecture/Lab 4 new/L4ALU.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/kilsd/Desktop/Computer Architecture/Lab 4 new|C:/Users/kilsd/Desktop/Computer Architecture/Lab 4 new/L4ALU.v|
+!i113 1
+R5
+R6
+R7
+n@l4@a@l@u
+vL4TB
+R1
+!i10b 1
+!s100 [^Vbh1JcICi9SX@1T4?2;2
+IL`Zl?W9:F?iAP?Xl13>k12
+R2
+R0
+w1647549884
+8C:/Users/kilsd/Desktop/Computer Architecture/Lab 4 new/L4TB.v
+FC:/Users/kilsd/Desktop/Computer Architecture/Lab 4 new/L4TB.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/kilsd/Desktop/Computer Architecture/Lab 4 new/L4TB.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/kilsd/Desktop/Computer Architecture/Lab 4 new|C:/Users/kilsd/Desktop/Computer Architecture/Lab 4 new/L4TB.v|
+!i113 1
+R5
+R6
+R7
+n@l4@t@b
+vMux_8x32to1x32
+R1
+!i10b 1
+!s100 mHU]z^Goo0dGEg:HnnBiI0
+I=Wn:1X[dXRzl`U75GSmTI3
+R2
+R0
+w1646153677
+8C:/Users/kilsd/Desktop/Computer Architecture/Lab 4 new/Mux_8x32to1x32.v
+FC:/Users/kilsd/Desktop/Computer Architecture/Lab 4 new/Mux_8x32to1x32.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/kilsd/Desktop/Computer Architecture/Lab 4 new/Mux_8x32to1x32.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/kilsd/Desktop/Computer Architecture/Lab 4 new|C:/Users/kilsd/Desktop/Computer Architecture/Lab 4 new/Mux_8x32to1x32.v|
+!i113 1
+R5
+R6
+R7
+n@mux_8x32to1x32

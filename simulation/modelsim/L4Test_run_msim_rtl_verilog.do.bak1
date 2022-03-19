@@ -1,0 +1,12 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+C:/Users/kilsd/Desktop/Computer\ Architecture/TEST {C:/Users/kilsd/Desktop/Computer Architecture/TEST/L4adder1bit.v}
+vlog -vlog01compat -work work +incdir+C:/Users/kilsd/Desktop/Computer\ Architecture/TEST {C:/Users/kilsd/Desktop/Computer Architecture/TEST/L4adder32bit.v}
+vlog -vlog01compat -work work +incdir+C:/Users/kilsd/Desktop/Computer\ Architecture/TEST {C:/Users/kilsd/Desktop/Computer Architecture/TEST/L4ALU.v}
+vlog -vlog01compat -work work +incdir+C:/Users/kilsd/Desktop/Computer\ Architecture/TEST {C:/Users/kilsd/Desktop/Computer Architecture/TEST/Mux_8x32to1x32.v}
+

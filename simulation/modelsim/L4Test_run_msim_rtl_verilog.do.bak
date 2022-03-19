@@ -1,0 +1,9 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+C:/Users/kilsd/Desktop/Computer\ Architecture/TEST {C:/Users/kilsd/Desktop/Computer Architecture/TEST/DE10_LITE_Golden_Top.v}
+

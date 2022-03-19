@@ -1,0 +1,47 @@
+module L4ALU (s,status, op,a,b);
+	input [31:0] a,b;
+	input [2:0] op;
+	output [31:0] s;
+	output [3:0] status;
+	
+	
+	
+	wire[31:0]su,xo,an,or_,no,rs,ls,zero;
+	
+	L4adder32bit adder (a,b,0,su,status[2]);
+	
+	
+	assign xo = a^b;
+	assign an = a&b;
+	assign or_ = a|b;
+	assign no = ~or_;
+	assign rs = a >> b;
+	assign ls = a << b;
+	
+	//zero reg for unused output state
+	assign zero = 32'h00000000;
+	
+	Mux_8x32to1x32 mux (s,op,zero,su,xo,an,or_,no,rs,ls);
+	//zero flag
+	assign status[0]=(s==32'b0)?1'b1:1'b0;
+	//neg flag
+	assign status[1] = s[31];
+	
+	// overflow flag =ab`s + `a`bs if a and b have same sign, but s has opposite sign, then overflow has occurred
+	assign status[3] = (a[31] & b[31] & ~s[31]) | (~a[31] & ~ b[31] & s[31]);
+	
+	
+//	always@(op or a or b)
+//	begin
+//		case (op)
+//			3'b000: s <= a+b; //adder
+//			3'b001: s <= a^b; //bitwise xor
+//			3'b010: s <= a&b; //bitwise and
+//			3'b011: s <= a|b; //bitwise or
+//			3'b100: s <= ~(a|b); //bitwise nor
+//			3'b101: s <= a >> b; 
+//			3'b110: s <= a << b; 
+//			default: s <= 32'bxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+//		endcase
+//	end
+endmodule
